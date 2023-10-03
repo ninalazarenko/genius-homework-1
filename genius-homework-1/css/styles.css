@@ -1,0 +1,177 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-primary-light: #ffffff;
+  --color-secondary-light: #747272;
+  --color-secondary-dark: #4a4a4a;
+  --color-secondary-dark-main: #011f4a;
+  --color-secondary-light-main: #ffd02b;
+}
+/* Base */
+body {
+  color: var(--color-brand-dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+ul {
+  list-style-type: none;
+}
+/* Button */
+.button-primary {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 32px;
+  padding: 16px 32px 16px 32px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.button-primary:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.button-secondary {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border-radius: 24px;
+  padding: 16px 32px 16px 32px;
+  font-weight: 600;
+  line-height: 1.17;
+}
+
+/* Link */
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+  text-decoration: underline;
+  font-weight: 700;
+}
+/* Hero section */
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.accent {
+  color: var(--color-brand-light);
+  font-family: 'Play', sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.hero-title-secondary {
+  color: #4a4a4a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+/* Advantages */
+.advantages-list {
+  color: #000000;
+  line-height: 1.3;
+}
+
+.section-title {
+  color: var(--color-brand-dark);
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.15;
+}
+
+.section-title .accent {
+  color: var(--color-brand-light);
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.pro-clinica {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.secondary-title {
+  color: var(--color-primary-light);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.17;
+}
+.secondary-title .accent {
+  color: var(--color-brand-light);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.garantii {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.garantii .accent-garantii {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/* Procedyru */
+.procedyru {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  line-height: 0.3;
+}
+
+/* Footer */
+.footer {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+}
+.danni {
+  color: var(--color-secondary-light);
+  font-style: normal;
+}
+.footer:hover {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
